@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    background-color: rgb(255, 229, 233);
+    height: 100vh;
+    background-size: cover;
+    }
+    
+    .container>.navbar {
+        width: 100%;
+        height: 80px;
+        background-color: #EDF1D6;
+    }
+    
+    .navbar ul{
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .navbar>.logo {
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .navbar>.logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #9DC08B;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px 8px;
+        line-height: 80px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #9DC08B;
+        font-size: 25px;
+        padding: 5px 15px;
+        font-family: sans-serif;
+    }
+    
+    
+    .navbar ul li a.active,.navbar ul li a:hover {
+        background-color: brown;
+        border-radius: 10px;
+    }
+    
+    .container>.center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+    
+    
+    .paragraphs {
+        color: #609966;
+        font-size: 40px;
+        padding: 10px;
+        border: solid 0px;
+        background-color: #EDF1D6;
+        border-radius: 20px;
+        text-align: center;
+        margin-top: 200px;
+    }

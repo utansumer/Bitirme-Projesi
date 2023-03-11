@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+    .container {
+    height: 100vh;
+    background-size: cover;
+    background-color: rgb(255, 229, 233);
+    }
+    
+    .container>.navbar {
+        width: 100%;
+        height: 80px;
+        background-color:#EDF1D6;
+    }
+    
+    .navbar ul{
+        float: right;
+        margin-right: 40px;
+    }
+    
+    .navbar>.logo {
+        display: inline-block;
+        margin-left: 80px;
+        margin-top: 20px;
+    }
+    .navbar>.logo a {
+        text-decoration: none;
+        font-size: 30px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: #9DC08B;
+    }
+    
+    .navbar ul li {
+        list-style: none;
+        display: inline-block;
+        margin: 0px 8px;
+        line-height: 80px;
+    }
+    
+    .navbar ul li a {
+        text-decoration: none;
+        color: #9DC08B;
+        font-size: 25px;
+        padding: 5px 15px;
+        font-family: sans-serif;
+    }
+    
+    
+    .navbar ul li a.active,.navbar ul li a:hover {
+        background-color: brown;
+        border-radius: 10px;
+    }
+    
+    .container>.center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        font-family: sans-serif;
+        user-select: none;
+    }
+
+    .paragraphs {
+        color: #609966;
+        font-size: 17,5px;
+        padding: 20px;
+        border: solid 0px #40513B;
+        background-color: #EDF1D6;
+        border-radius: 20px;
+        font-family: sans-serif;
+    }
+
+    .videos {
+        padding-left: 50px;
+        padding-top: 10px;
+    }
+
+    .topic {
+        color: #609966;
+        text-decoration: none;
+        border: solid 0px;
+        border-radius: 5px;
+        background-color:#e5f3df ;
+        position: sticky;
+        left: 38%;
+        padding: 6px;
+        margin: 20px;
+        font-family: sans-serif;
+    }

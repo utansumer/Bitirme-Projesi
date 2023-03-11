@@ -1,0 +1,146 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+.container {
+height: 100vh;
+background-size: 100% 100%;
+background-color: rgb(255, 229, 233);
+}
+
+.container>.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: #EDF1D6;
+}
+
+.navbar ul{
+    float: right;
+    margin-right: 40px;
+}
+
+.navbar>.logo {
+    display: inline-block;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+.navbar>.logo a {
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #9DC08B;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
+    line-height: 80px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #9DC08B;
+    font-size: 25px;
+    padding: 5px 15px;
+    font-family: sans-serif;
+}
+
+
+.navbar ul li a.active,.navbar ul li a:hover {
+    background-color: brown;
+    border-radius: 10px;
+}
+
+.container>.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1 {
+    color: #609966;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 125px;
+    padding: 30px;
+    width: 700px;
+    text-align: center;
+    font-family:sans-serif;
+    border: solid 0px;
+    border-radius: 15px;
+    background-color: #EDF1D6;
+}
+
+.center h2 {
+    color: #609966;
+    font-size: 30px;
+    width: 900px;
+    margin: 30px 30px;
+    padding: 15px;
+    font-family:sans-serif;
+    border: solid 0px;
+    background-color: #EDF1D6;
+    border-radius: 15px;
+
+}
+
+.center .buttons {
+    margin: 50px 280px;
+    float: left;
+    padding: 10px 10px;
+}
+
+.buttons button  {
+    height: 40px;
+    width: 120px;
+    font-size: 10px;
+    cursor: pointer;
+    margin: 10px 10px;
+}
+
+
+
+button {
+    padding: 0.1em 0.25em;
+    width: 13em;
+    height: 4.2em;
+    background-color: #EDF1D6;
+    border: 0.08em solid #fff;
+    border-radius: 0.3em;
+    font-size: 12px;
+  }
+  
+  button span {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0.4em;
+    width: 8.25em;
+    height: 2.5em;
+    background-color:#EDF1D6;
+    border-radius: 0.2em;
+    font-size: 1.5em;
+    color: #609966;
+    border:  solid ;
+    box-shadow: 0 0.4em 0.1em 0.019em #9DC08B;
+  }
+  
+  button span:hover {
+    transition: all 0.5s;
+    transform: translate(0, 0.4em);
+    box-shadow: 0 0 0 0 #fff;
+  }
+  
+  button span:not(hover) {
+    transition: all 1s;
+  }
+
+  .onlenmesi {
+    height: 50px;
+  }
